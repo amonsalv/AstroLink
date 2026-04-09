@@ -10,12 +10,17 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/check": "^0.8.1",
-    "@iconify-json/mdi": "^1.1.67",
+    "@astrojs/check": "^0.9.8",
+    "@iconify-json/mdi": "^1.2.3",
     "@mdi/js": "^7.4.47",
-    "astro": "^4.11.5",
-    "astro-icon": "^1.1.0",
-    "typescript": "^5.5.3"
+    "astro": "^6.1.5",
+    "astro-icon": "^1.1.5",
+    "typescript": "^5.9.3"
   },
-  "packageManager": "pnpm@9.4.0+sha512.f549b8a52c9d2b8536762f99c0722205efc5af913e77835dbccc3b0b0b2ca9e7dc8022b78062c17291c48e88749c70ce88eb5a74f1fa8c4bf5e18bb46c8bd83a"
+  "packageManager": "pnpm@9.4.0+sha512.f549b8a52c9d2b8536762f99c0722205efc5af913e77835dbccc3b0b0b2ca9e7dc8022b78062c17291c48e88749c70ce88eb5a74f1fa8c4bf5e18bb46c8bd83a",
+  "pnpm": {
+    "overrides": {
+      "yaml": ">=2.8.3"
+    }
+  }
 }
